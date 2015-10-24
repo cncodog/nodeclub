@@ -1,0 +1,4 @@
+
+
+sudo mongodb&
+redis-server&

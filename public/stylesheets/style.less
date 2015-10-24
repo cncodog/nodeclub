@@ -1,8 +1,9 @@
 @gray1: #e1e1e1;
 @gray2: #f6f6f6;
+@gray3: #499ef3;
 @node_green: #80bd01;
 @node_black: #444444;
-
+@node_blue: #499ef3;
 /* base */
 body {
   background-color: @gray1;
@@ -129,6 +130,7 @@ body {
 
 /* common */
 .col_fade {
+
   color: hsl(0, 0%, 67%);
 }
 
@@ -778,14 +780,24 @@ textarea#title {
   vertical-align: baseline;
 }
 
+
 /* custom bootstrap */
 .navbar {
-  margin-bottom: 0px;
+  /**margin-bottom: 0px;
   z-index: 9;
   width: 100%;
   position: relative;
   background: @node_black;
-  font-size: 13px;
+  font-size: 13px;**/
+  margin-bottom: 0px;
+  z-index: 9;
+  width: 100%;
+  background: @node_blue;
+//  background-color: #FFF;
+  //border-top: 2px solid #1abc9c;
+//  box-shadow: 0 1px 2px #e1e1e1;
+//  position: fixed;
+  top:0;
 }
 
 .navbar-inner {
@@ -806,14 +818,18 @@ textarea#title {
 }
 
 .navbar .brand {
-  padding: 4px 0px 0px 20px;
+/**  padding: 4px 0px 0px 20px;
   width: 120px;
   padding: 3px 20px;
-  height: 28px;
+  height: 28px;**/
+  width: 123px;
+  margin: 3px 0 0 0;
+padding: 1px 20px 0px 20px;
+  height: 30px;
 }
 
 .navbar .navbar-search {
-  margin-top: 6px;
+  margin-top: 10px;
 }
 
 .navbar .search-query {
@@ -842,9 +858,16 @@ textarea#title {
 
 .navbar .nav > li > a {
   text-shadow: none;
-  color: #cccccc;
+
+  color: #fff;
+//  line-height:30px;
+  font-size: 14px;
+  line-height: 2em;
+  font-weight:500;
   &:hover {
-    color: #fff;
+    color: #A4BFB4;
+    font-weight:800;
+    font-size: 16px;
   }
 }
 
@@ -1260,3 +1283,9 @@ textarea.editor {
 .cnode-app-download {
   text-align: center;
 }
+
+.foot {
+    font-size: 13px;
+    text-align: center;
+
+  }
