@@ -1,4 +1,4 @@
 
 
-sudo mongodb&
+sudo mongod&
 redis-server&
