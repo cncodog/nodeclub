@@ -15,9 +15,9 @@
   display: none;
 }
 
-@media (max-width: 400px,height: 100%; ) {
+@media (max-width: 400px;height:300px;) {
   .navbar .brand {
-
+      height:50px;
       float: none;
       margin: 0 auto;
   }
