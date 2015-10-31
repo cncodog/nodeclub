@@ -116,7 +116,9 @@
   #main .reply_content p a.content_img {
       width: 100%;
   }
-
+  #gh_content {
+    display: none;
+  }
   #footer {
       margin: 0 5px 5px;
   }
@@ -124,6 +126,8 @@
   #footer_main {
     display: none;
   }
+
+
 
   #backtotop {
       background-color: #f5f5f5;
